@@ -1,0 +1,55 @@
+* {
+    font-family: caveat;
+    padding: 0;
+    margin: 0;
+    padding-top: 1vh;
+    background-color:black;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 8vh;
+    color: azure;
+}
+
+.sapaan {
+    padding: 10vh;
+}
+
+.container0 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10vh;
+}
+
+.sapa-text h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 21vh;
+    background-color: brown;
+    color: bisque;
+    font-weight: 900;
+}
+
+.sapa-text {
+    background-color: brown;
+    border-radius: 3vh;
+    box-shadow: 0px 0px 25px white;
+}
+
+.sapa-box img {
+    width: 100%;
+    border-radius: 3vh;
+}
+
+.sapa-box {
+    border-radius: 3vh;
+    box-shadow: 0px 0px 25px white;
+}
